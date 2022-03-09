@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  border-bottom: 3px #207920 solid;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.active {
+  border-left: #207920 3px solid;
+}
+
+.col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.p {
+  padding-top: 35px;
+}
+
+.image-1 {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url(../img/image1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#home-heading {
+  position: relative;
+  height: 150px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/image1.jpg);
+  background-attachment: fixed;
+  background-position: left;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-color {
+  background-color: #42af42;
+  color: #fff;
+}
+.btn-color:hover {
+  background-color: #207920;
+  color: #fff;
+}
+
+.btn-outline-color {
+  font-weight: bold;
+  color: #42af42;
+  border: 2px #42af42 solid;
+}
+.btn-outline-color:hover {
+  font-weight: bold;
+  color: #eee;
+  background-color: #207920;
+  border: 2px #207920 solid;
+}
+
+.box {
+  display: flex;
+  padding-bottom: 0.8rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #35424a;
+
+  max-width: 250px;
+}
+
+.box img {
+  width: 90px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.page-header {
+  height: 200px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/image1.jpg);
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px solid #eee;
+  padding-top: 50px;
+}
+
+#projects {
+  margin-top: 3.5rem;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .lead {
+    padding-top: 3rem;
+  }
+
+  #home-icons {
+    padding-top: 3rem;
+  }
+
+  /* .margin {
+    margin-bottom: -2rem;
+  } */
+}
